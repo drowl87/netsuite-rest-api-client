@@ -1,10 +1,14 @@
 {
-  "name": "netsuite-rest-api-client",
-  "version": "1.0.0",
-  "description": "NetSuite Rest API Client",
+  "name": "@drowl87/netsuite-rest-api-client",
+  "version": "1.0.1",
+  "description": "NetSuite Rest API Client - Patched Version",
   "main": "./netsuite-rest-api.js",
   "scripts": {
     "test": "ava"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/drowl87/netsuite-rest-api-client.git"
   },
   "keywords": [
     "utils",
@@ -21,13 +25,14 @@
     "Benjamin Hemingway",
     "Tim Monroe",
     "Alvin Paz",
-    "Jawaid Gadiwala"
+    "Jawaid Gadiwala",
+    "jawaidgadiwala"
   ],
   "homepage": "",
   "license": "ISC",
   "dependencies": {
-    "etl": "^0.6.12",
-    "got": "^11.8.6",
+    "etl": "^0.8.0",
+    "got": "^14.4.6",
     "oauth-1.0a": "^2.2.6"
   },
   "devDependencies": {
