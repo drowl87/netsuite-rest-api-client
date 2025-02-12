@@ -7,5 +7,8 @@ This project is a modified version of [NetSuite Rest API Client](https://www.npm
 - Benjamin Hemingway
 - Tim Monroe
 - Alvin Paz
+- jawaidgadiwala
 
-Purpose of this fork is to add Accept-Language and Content-Language headers
+This fork is a fork of [NetSuite Rest API Client](https://www.npmjs.com/package/netsuite-rest-api-client) and the original purpose of that fork was to add Accept-Language and Content-Language headers.
+
+The purpose of THIS fork is just to update etl to patch security vulnerabilities with moment.js.
